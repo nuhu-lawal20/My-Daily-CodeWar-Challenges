@@ -11,7 +11,11 @@ function checkForFactor (base, factor) {
 function checkForFactor (base, factor) {
     // code here
     if(base%factor===0){
-    }}
+      return true
+    }else{
+      return false
+    }
+  }
 
 
 const checkForFactor = (base,factor) => (base%factor===0 ? true : false)
