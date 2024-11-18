@@ -13,4 +13,5 @@ function countSheeps2(sheep) {
     // TODO
    let filt = sheep.filter(x => x = true)
    return filt.length
+
   }
